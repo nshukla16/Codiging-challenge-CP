@@ -5,7 +5,7 @@ from math import *
 from typing import *
 
 #check sting is palindrome or not, if not adding it's value how many times to make it palindrome
-def palindrome(A: List[int]) -> int:
+def palindrome(A: List[int]) -> int: 
     # Write your code here.
     n = len(A)
     left = 0
