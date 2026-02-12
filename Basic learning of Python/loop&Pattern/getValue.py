@@ -34,4 +34,13 @@ def printSum(i,sum):
     
     printSum(i-1, sum+i)
 
-printSum(4,0)
+#printSum(4,0)
+
+#sum of given n numbers using functional way
+def printSumF(i):
+    if(i==0):
+        return 0
+    
+    return i + printSumF(i-1)
+df = printSumF(4) 
+print(df)
