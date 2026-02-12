@@ -16,7 +16,6 @@ def printNumAsc(i,n):
     printNumAsc(i+1,n)
 # printNumAsc(1,5)
 
-
 #print value n to 1 dsc order
 def printNumDsc(i,n):
     if(i>n):
@@ -25,4 +24,14 @@ def printNumDsc(i,n):
     printNumDsc(i+1,n)
     print(i)
 
-printNumDsc(1,5)
+# printNumDsc(1,5)
+
+#sum of given n numbers
+def printSum(i,sum):
+    if(i<1):
+        print(sum)
+        return
+    
+    printSum(i-1, sum+i)
+
+printSum(4,0)
