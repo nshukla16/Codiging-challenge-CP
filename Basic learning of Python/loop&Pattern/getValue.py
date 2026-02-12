@@ -26,7 +26,7 @@ def printNumDsc(i,n):
 
 # printNumDsc(1,5)
 
-#sum of given n numbers
+#sum of given n numbers parameterise way
 def printSum(i,sum):
     if(i<1):
         print(sum)
