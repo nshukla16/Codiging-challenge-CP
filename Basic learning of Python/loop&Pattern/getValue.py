@@ -1,4 +1,9 @@
-class getValue:
-    array = [1,2,4,7]
-    for s in array:
-        print(s)
+def printf(i,n):
+    if(i>n):
+        return
+    print('rahul')
+    # i+=1
+    printf(i+1,n)
+printf(1,5)
+
+
