@@ -14,5 +14,15 @@ def printNumAsc(i,n):
     print(i)
 
     printNumAsc(i+1,n)
-printNumAsc(1,5)
+# printNumAsc(1,5)
 
+
+#print value n to 1 dsc order
+def printNumDsc(i,n):
+    if(i>n):
+        return
+    
+    printNumDsc(i+1,n)
+    print(i)
+
+printNumDsc(1,5)
