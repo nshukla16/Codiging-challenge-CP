@@ -43,4 +43,14 @@ def printSumF(i):
     
     return i + printSumF(i-1)
 df = printSumF(4) 
-print(df)
+# print(df)
+
+#multiplication of given n numbers 
+def fab(i,sum):
+    if(i == 1):
+        print(sum)
+        return 1
+    fab(i-1,sum*i)
+
+fab(4,1)
+
